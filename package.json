@@ -1,0 +1,20 @@
+{
+  "name": "node_homework1",
+  "version": "1.0.0",
+  "description": "firts nodeJs homework for GOIT",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Roman Siratsky",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^7.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
